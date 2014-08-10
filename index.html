@@ -3,10 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Github Calendar editor: propose via github to employer</title>
+    <title>Github calendar editor: propose-via github to employer</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <script src="js/vendor/modernizr.js"></script>
     <script src="http://jpospychala.github.io/githubart/githubart.js"></script>
+    <script src="app.js"></script>
   </head>
   <body onload="doOnload()">
 
@@ -20,7 +21,7 @@
       <div class="large-12 columns">
       	<div class="panel">
 	        <p>A little wink to recruiter on your GitHub profile won't hurt...</p>
-          <select onchange="cal.openTemplate(this.value)">
+          <select onchange="openTemplate(this.value)">
             <option>Choose company name...</option>
             <option value="ibm">IBM</option>
             <option value="facebook">Facebook</option>
